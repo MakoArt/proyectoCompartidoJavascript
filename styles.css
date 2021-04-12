@@ -1,0 +1,80 @@
+
+.body{
+    width:100%;
+    height: 1200px;
+    background:linear-gradient(90deg ,red ,rgb(87, 7, 7),rgb(9, 131, 9)) ;
+}
+.main__header{
+ text-align: center;
+ 
+}
+.header__h1{
+ background: linear-gradient(90deg,rgb(233, 100, 77),rgb(80, 4, 4),green);
+ height:90px;
+ align-items: center;
+ color:rgb(241, 202, 202);
+ padding-top: 45px;
+ font-size: 35px;
+}
+.main__main{
+    width:100%;
+    height:1400px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg,rgb(214, 121, 121),rgb(104, 4, 4));
+    
+}
+.main__article{
+    display:block;
+    justify-content: space-evenly;
+}
+.main__article h3{
+    font-size: 40px;
+    text-align: center;
+    color:thistle;
+}
+.article__img{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    width: 170px;
+    height: 170px;
+    background-color: red;
+    animation:girarHeptagonos 30s  infinite linear;
+    margin-top: 70px;
+    
+
+}
+.article__img--1{
+ background-image:url('./img/models/beauty-2361004_1920.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.article__img--2{
+ background-image:url('./img/models/beauty-2481117_1920.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.article__img--3{
+ background-image:url('./img/models/girl-1530750_1920.jpg');
+ background-size: cover;
+ background-position-x:-30px;
+ background-repeat: no-repeat;
+}
+.article__img--4{
+ background-image:url('./img/models/girl-2673841_1920.jpg');
+ background-size: cover; 
+ background-repeat: no-repeat;
+
+}
+@keyframes girarHeptagonos{
+    0%{
+     transform: rotateZ(0deg);
+    }
+    100%{
+     transform: rotateZ(359deg);
+    }
+}
+
+
+
+
